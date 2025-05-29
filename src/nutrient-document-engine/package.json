@@ -1,0 +1,27 @@
+{
+  "name": "@modelcontextprotocol/server-nutrient-document-engine",
+  "version": "0.1.0",
+  "description": "MCP server for Nutrient Document Engine",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-server-nutrient-document-engine": "index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
